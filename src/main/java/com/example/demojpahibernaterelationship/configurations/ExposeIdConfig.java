@@ -10,6 +10,7 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 @Configuration
 public class ExposeIdConfig implements RepositoryRestConfigurer {
 
+    // this is to expose id or something
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
         config.exposeIdsFor(Department.class);

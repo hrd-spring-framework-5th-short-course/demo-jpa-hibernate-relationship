@@ -197,7 +197,6 @@ public class DemoJpaHibernateRelationshipApplication implements ApplicationRunne
                         .from(qEmployee)
                         .fetch();
 
-        System.out.println(employeesByDep);
 
         // select count salary group by department
         JPAQuery<Double> doubleJPAQuery = new JPAQuery<>(entityManager);
@@ -212,7 +211,6 @@ public class DemoJpaHibernateRelationshipApplication implements ApplicationRunne
                 .fetch();
 
         System.out.println(doubles);
-
 
     }
 }
