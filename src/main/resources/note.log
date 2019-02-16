@@ -1,0 +1,26 @@
+How to prevent recursive call when working with bidirectional - go to the link below
+https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion
+
+
+
+Jpa Doc
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/
+
+Spring data rest doc with hal browser.
+https://docs.spring.io/spring-data/rest/docs/current/reference/html/
+
+
+
+swagger with spring data rest
+https://springfox.github.io/springfox/docs/snapshot/#spring-data-rest-extensibility
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
+ExposeId  //to get id when using with rest repository(spring data rest)
+
+
+
+// criteria query docs
+https://docs.jboss.org/hibernate/entitymanager/3.5/reference/en/html/querycriteria.html
+
+
+// query dsl docs
